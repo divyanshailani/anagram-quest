@@ -8,6 +8,7 @@ The project is intentionally split by deployment/runtime concern:
 2. **Backend runtime repo** for production game server
 3. **Frontend repo** for Vercel deployment
 4. **This umbrella repo** for story, architecture, and recruiter navigation
+5. **Model release repo** for model cards, release checklist, and versioned weight publishing
 
 ## Repositories
 
@@ -35,6 +36,12 @@ The project is intentionally split by deployment/runtime concern:
 - Includes: journey documentation, topology, deployment/scale strategy
 - Link: [github.com/divyanshailani/anagram-quest](https://github.com/divyanshailani/anagram-quest)
 
+### 5) anagram-quest-qwen3-0.6b-grpo-mlx
+
+- Purpose: Model release packaging for the tuned Qwen3 anagram solver
+- Includes: model card, LFS config, release checklist, publish workflow
+- Link: [github.com/divyanshailani/anagram-quest-qwen3-0.6b-grpo-mlx](https://github.com/divyanshailani/anagram-quest-qwen3-0.6b-grpo-mlx)
+
 ## Integration Flow
 
 - Frontend calls backend over HTTPS
@@ -47,4 +54,5 @@ The project is intentionally split by deployment/runtime concern:
 1. Start with this repo README (big picture)
 2. Open `docs/JOURNEY.md` (problem-solving depth)
 3. Visit frontend + server repos (implementation depth)
-4. Visit OpenEnv repo (research/RL foundation)
+4. Visit model repo (how tuned model versions are packaged/released)
+5. Visit OpenEnv repo (research/RL foundation)

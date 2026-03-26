@@ -34,15 +34,24 @@ Repository: [anagram-quest-frontend](https://github.com/divyanshailani/anagram-q
 - Banking UI in match mode: [app/components/MatchBankPanel.js](https://github.com/divyanshailani/anagram-quest-frontend/blob/main/app/components/MatchBankPanel.js)
 - Banking UI in watch mode: [app/components/BankPanel.js](https://github.com/divyanshailani/anagram-quest-frontend/blob/main/app/components/BankPanel.js)
 
-## 4) Cross-Repo Request Flow
+## 4) Model Release Repo (Part 2C)
+
+Repository: [anagram-quest-qwen3-0.6b-grpo-mlx](https://github.com/divyanshailani/anagram-quest-qwen3-0.6b-grpo-mlx)
+
+- Release model card: [README.md](https://github.com/divyanshailani/anagram-quest-qwen3-0.6b-grpo-mlx/blob/main/README.md)
+- LFS tracking policy: [.gitattributes](https://github.com/divyanshailani/anagram-quest-qwen3-0.6b-grpo-mlx/blob/main/.gitattributes)
+- Release process checklist: [RELEASE_CHECKLIST.md](https://github.com/divyanshailani/anagram-quest-qwen3-0.6b-grpo-mlx/blob/main/RELEASE_CHECKLIST.md)
+
+## 5) Cross-Repo Request Flow
 
 1. User interacts with frontend (`app/vs/page.js`, `useMatchEngine.js`).
 2. Frontend calls backend match endpoints in `main.py`.
 3. Backend streams AI events over SSE to frontend (`AIArena.js`, stream handlers).
 4. Backend calls Oracle and applies banking + scoring rules.
-5. State and results are reflected back in frontend panels and score bars.
+5. Model releases are documented/versioned in Part 2C.
+6. State and results are reflected back in frontend panels and score bars.
 
-## 5) Local Repro Pack (In This Repo)
+## 6) Local Repro Pack (In This Repo)
 
 If you want to try the model without OpenEnv/FastAPI:
 
@@ -54,7 +63,7 @@ If you want to try the model without OpenEnv/FastAPI:
 - HF publish guide: [repro/local_mlx/HF_PUBLISH_GUIDE.md](../repro/local_mlx/HF_PUBLISH_GUIDE.md)
 - HF model card template: [repro/local_mlx/HF_MODEL_CARD_TEMPLATE.md](../repro/local_mlx/HF_MODEL_CARD_TEMPLATE.md)
 
-## 6) What To Read First (Reviewer Shortcut)
+## 7) What To Read First (Reviewer Shortcut)
 
 1. [main.py](https://github.com/divyanshailani/anagram-quest-server/blob/main/main.py)
 2. [app/hooks/useMatchEngine.js](https://github.com/divyanshailani/anagram-quest-frontend/blob/main/app/hooks/useMatchEngine.js)

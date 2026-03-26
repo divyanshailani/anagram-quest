@@ -2,6 +2,10 @@
 
 This folder lets anyone test the fine-tuned Qwen anagram model locally without running the full OpenEnv/FastAPI game stack.
 
+Published model release repo:
+
+- https://github.com/divyanshailani/anagram-quest-qwen3-0.6b-grpo-mlx
+
 ## Included Files
 
 - `scripts/run_qwen_local.py` - interactive/one-shot local inference runner.

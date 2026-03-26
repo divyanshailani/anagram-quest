@@ -10,6 +10,7 @@ This repo is the **master narrative + architecture index** for the project famil
 - Player vs AI Mode (Direct): [anagram-quest-frontend.vercel.app/vs](https://anagram-quest-frontend.vercel.app/vs)
 - OpenEnv Game (Part 1): [ailanidivyansh-word-guessing-env.hf.space/web](https://ailanidivyansh-word-guessing-env.hf.space/web)
 - Backend Health: [anagram-quest.mooo.com/health](https://anagram-quest.mooo.com/health)
+- Model Release Repo (Part 2C): [anagram-quest-qwen3-0.6b-grpo-mlx](https://github.com/divyanshailani/anagram-quest-qwen3-0.6b-grpo-mlx)
 
 ## Local Tryout (No OpenEnv)
 
@@ -53,6 +54,7 @@ OpenEnv screenshots live in the Part 1 repo docs to avoid duplicate heavy scroll
 | Part 1 | [anagram-quest-openenv](https://github.com/divyanshailani/anagram-quest-openenv) | RL-ready word-guessing environment + web UI |
 | Part 2A | [anagram-quest-server](https://github.com/divyanshailani/anagram-quest-server) | FastAPI game master, SSE, MDP banking, Oracle integration |
 | Part 2B | [anagram-quest-frontend](https://github.com/divyanshailani/anagram-quest-frontend) | Next.js premium UX, Watch mode + Player vs AI |
+| Part 2C | [anagram-quest-qwen3-0.6b-grpo-mlx](https://github.com/divyanshailani/anagram-quest-qwen3-0.6b-grpo-mlx) | Model release packaging, model card, and versioned weight publishing workflow |
 
 ## Why This Repo Exists
 
