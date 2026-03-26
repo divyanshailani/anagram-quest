@@ -11,6 +11,17 @@ This repo is the **master narrative + architecture index** for the project famil
 - OpenEnv Game (Part 1): [ailanidivyansh-word-guessing-env.hf.space/web](https://ailanidivyansh-word-guessing-env.hf.space/web)
 - Backend Health: [anagram-quest.mooo.com/health](https://anagram-quest.mooo.com/health)
 
+## Local Tryout (No OpenEnv)
+
+Want to test the fine-tuned model locally without the web stack?
+
+- Start here: [repro/local_mlx/README.md](repro/local_mlx/README.md)
+- Includes:
+  - local MLX inference runner (`run_qwen_local.py`)
+  - smoke tests (`smoke_test.py`)
+  - dataset generator (`generate_dataset_v2.py`)
+  - training notebooks (`Anagram_quest_Qwen_3_0.6B_retuned.ipynb`, `word_guess_model_SFT_GRPO.ipynb`)
+
 ## Visual Preview
 
 OpenEnv screenshots live in the Part 1 repo docs to avoid duplicate heavy scrolling here:
@@ -101,6 +112,7 @@ Deployment and scale notes: [docs/DEPLOYMENT_AND_SCALE.md](docs/DEPLOYMENT_AND_S
 - [docs/CODE_MAP.md](docs/CODE_MAP.md) — direct file-level code pointers across all repos
 - [docs/POSTMORTEM.md](docs/POSTMORTEM.md) — highest-impact production bugs and exact fixes
 - [docs/PROJECT_STORY.md](docs/PROJECT_STORY.md) — portfolio/interview narrative from concept to stable production
+- [repro/local_mlx/README.md](repro/local_mlx/README.md) — local model reproduction guide and scripts
 
 ## Author
 

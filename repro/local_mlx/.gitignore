@@ -1,0 +1,12 @@
+# Keep reproducible code/docs in git, but never commit local model binaries
+models/
+checkpoints/
+outputs/
+*.safetensors
+*.pt
+*.bin
+*.npz
+*.ckpt
+
+__pycache__/
+*.pyc

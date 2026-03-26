@@ -42,7 +42,17 @@ Repository: [anagram-quest-frontend](https://github.com/divyanshailani/anagram-q
 4. Backend calls Oracle and applies banking + scoring rules.
 5. State and results are reflected back in frontend panels and score bars.
 
-## 5) What To Read First (Reviewer Shortcut)
+## 5) Local Repro Pack (In This Repo)
+
+If you want to try the model without OpenEnv/FastAPI:
+
+- Guide: [repro/local_mlx/README.md](../repro/local_mlx/README.md)
+- Inference runner: [repro/local_mlx/scripts/run_qwen_local.py](../repro/local_mlx/scripts/run_qwen_local.py)
+- Smoke test: [repro/local_mlx/scripts/smoke_test.py](../repro/local_mlx/scripts/smoke_test.py)
+- Dataset builder: [repro/local_mlx/scripts/generate_dataset_v2.py](../repro/local_mlx/scripts/generate_dataset_v2.py)
+- Colab training script: [repro/local_mlx/scripts/grpo_colab_pipeline.py](../repro/local_mlx/scripts/grpo_colab_pipeline.py)
+
+## 6) What To Read First (Reviewer Shortcut)
 
 1. [main.py](https://github.com/divyanshailani/anagram-quest-server/blob/main/main.py)
 2. [app/hooks/useMatchEngine.js](https://github.com/divyanshailani/anagram-quest-frontend/blob/main/app/hooks/useMatchEngine.js)
