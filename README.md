@@ -15,6 +15,14 @@ This repo is the **master narrative + architecture index** for the project famil
 ![OpenEnv Welcome](https://raw.githubusercontent.com/divyanshailani/anagram-quest-openenv/main/docs/welcome.png)
 ![OpenEnv Gameplay](https://raw.githubusercontent.com/divyanshailani/anagram-quest-openenv/main/docs/gameplay.png)
 
+### PvAI Production Snapshots
+
+![PvAI Screenshot 1](docs/assets/showcase_01.png)
+![PvAI Screenshot 2](docs/assets/showcase_02.png)
+![PvAI Screenshot 3](docs/assets/showcase_03.png)
+![PvAI Screenshot 4](docs/assets/showcase_04.png)
+![PvAI Screenshot 5](docs/assets/showcase_05.png)
+
 ## Project Family (Source Repos)
 
 | Layer | Repo | Role |
