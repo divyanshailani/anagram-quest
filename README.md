@@ -12,16 +12,26 @@ This repo is the **master narrative + architecture index** for the project famil
 
 ## Visual Preview
 
-![OpenEnv Welcome](https://raw.githubusercontent.com/divyanshailani/anagram-quest-openenv/main/docs/welcome.png)
-![OpenEnv Gameplay](https://raw.githubusercontent.com/divyanshailani/anagram-quest-openenv/main/docs/gameplay.png)
+OpenEnv screenshots live in the Part 1 repo docs to avoid duplicate heavy scrolling here:
+[anagram-quest-openenv/docs](https://github.com/divyanshailani/anagram-quest-openenv/tree/main/docs)
 
 ### PvAI Production Snapshots
 
-![PvAI Screenshot 1](docs/assets/showcase_01.png)
-![PvAI Screenshot 2](docs/assets/showcase_02.png)
-![PvAI Screenshot 3](docs/assets/showcase_03.png)
-![PvAI Screenshot 4](docs/assets/showcase_04.png)
-![PvAI Screenshot 5](docs/assets/showcase_05.png)
+<p align="center">
+  <img src="docs/assets/showcase_01.png" alt="PvAI screenshot 1" width="48%" />
+  <img src="docs/assets/showcase_02.png" alt="PvAI screenshot 2" width="48%" />
+</p>
+
+<details>
+  <summary>View More PvAI Screenshots</summary>
+  <p align="center">
+    <img src="docs/assets/showcase_03.png" alt="PvAI screenshot 3" width="48%" />
+    <img src="docs/assets/showcase_04.png" alt="PvAI screenshot 4" width="48%" />
+  </p>
+  <p align="center">
+    <img src="docs/assets/showcase_05.png" alt="PvAI screenshot 5" width="70%" />
+  </p>
+</details>
 
 ## Project Family (Source Repos)
 
@@ -87,6 +97,9 @@ Deployment and scale notes: [docs/DEPLOYMENT_AND_SCALE.md](docs/DEPLOYMENT_AND_S
 - [docs/JOURNEY.md](docs/JOURNEY.md) — full build timeline + failures + fixes
 - [docs/REPO_TOPOLOGY.md](docs/REPO_TOPOLOGY.md) — how all repos connect
 - [docs/DEPLOYMENT_AND_SCALE.md](docs/DEPLOYMENT_AND_SCALE.md) — production architecture, hardening, scale path
+- [docs/CODE_MAP.md](docs/CODE_MAP.md) — direct file-level code pointers across all repos
+- [docs/POSTMORTEM.md](docs/POSTMORTEM.md) — highest-impact production bugs and exact fixes
+- [docs/PROJECT_STORY.md](docs/PROJECT_STORY.md) — portfolio/interview narrative from concept to stable production
 
 ## Author
 
