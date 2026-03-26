@@ -6,8 +6,9 @@ This repo is the **master narrative + architecture index** for the project famil
 
 ## Live Links
 
+- Master Live App (Part 2 Main): [anagram-quest-frontend.vercel.app](https://anagram-quest-frontend.vercel.app)
+- Player vs AI Mode (Direct): [anagram-quest-frontend.vercel.app/vs](https://anagram-quest-frontend.vercel.app/vs)
 - OpenEnv Game (Part 1): [ailanidivyansh-word-guessing-env.hf.space/web](https://ailanidivyansh-word-guessing-env.hf.space/web)
-- PvAI Frontend (Part 2): [anagram-quest-frontend.vercel.app/vs](https://anagram-quest-frontend.vercel.app/vs)
 - Backend Health: [anagram-quest.mooo.com/health](https://anagram-quest.mooo.com/health)
 
 ## Visual Preview
