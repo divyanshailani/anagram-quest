@@ -10,6 +10,8 @@ This folder lets anyone test the fine-tuned Qwen anagram model locally without r
 - `scripts/grpo_colab_pipeline.py` - Colab cell-by-cell SFT -> GRPO training pipeline script.
 - `notebooks/Anagram_quest_Qwen_3_0.6B_retuned.ipynb` - Qwen retuning notebook.
 - `notebooks/word_guess_model_SFT_GRPO.ipynb` - SFT/GRPO notebook variant.
+- `HF_PUBLISH_GUIDE.md` - step-by-step Hugging Face model publish flow.
+- `HF_MODEL_CARD_TEMPLATE.md` - ready model card template for HF model repos.
 
 ## Quickstart (macOS Apple Silicon)
 
@@ -72,3 +74,8 @@ Keep this folder lightweight and reproducible:
 - Do not commit private credentials/tokens.
 
 Model weights can be shared separately via Hugging Face model repos or release assets.
+
+## Publish Weights to Hugging Face
+
+- Follow: [`HF_PUBLISH_GUIDE.md`](HF_PUBLISH_GUIDE.md)
+- Use this model card: [`HF_MODEL_CARD_TEMPLATE.md`](HF_MODEL_CARD_TEMPLATE.md)

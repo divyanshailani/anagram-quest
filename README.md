@@ -21,6 +21,7 @@ Want to test the fine-tuned model locally without the web stack?
   - smoke tests (`smoke_test.py`)
   - dataset generator (`generate_dataset_v2.py`)
   - training notebooks (`Anagram_quest_Qwen_3_0.6B_retuned.ipynb`, `word_guess_model_SFT_GRPO.ipynb`)
+  - HF publish guide + model card template
 
 ## Visual Preview
 

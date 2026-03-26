@@ -51,6 +51,8 @@ If you want to try the model without OpenEnv/FastAPI:
 - Smoke test: [repro/local_mlx/scripts/smoke_test.py](../repro/local_mlx/scripts/smoke_test.py)
 - Dataset builder: [repro/local_mlx/scripts/generate_dataset_v2.py](../repro/local_mlx/scripts/generate_dataset_v2.py)
 - Colab training script: [repro/local_mlx/scripts/grpo_colab_pipeline.py](../repro/local_mlx/scripts/grpo_colab_pipeline.py)
+- HF publish guide: [repro/local_mlx/HF_PUBLISH_GUIDE.md](../repro/local_mlx/HF_PUBLISH_GUIDE.md)
+- HF model card template: [repro/local_mlx/HF_MODEL_CARD_TEMPLATE.md](../repro/local_mlx/HF_MODEL_CARD_TEMPLATE.md)
 
 ## 6) What To Read First (Reviewer Shortcut)
 
